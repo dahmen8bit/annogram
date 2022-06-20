@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+    <style>
+        body{
+            background-color:black;
+        }
+        .registration-form{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:300px;
+            padding:40px;
+            border-radius:24px;
+            background:#34495E;
+        }
+        .registration-form input{
+              border:0;
+            background:none;
+            display:block;
+            margin:20px auto;
+            text-align:center;
+            border:2px solid #5D6D7E;
+            padding:14px 10px;
+            width:200px;
+            color:white;
+            border-radius:24px;
+            transition:0.25s;
+        }        
+        .registration-form input:focus{
+            width:280px;
+            border-color:#D35400;
+        }
+        .registration-form button{
+            
+            border:0;
+            background:none;
+            display:block;
+            margin:20px auto;
+            text-align:center;
+            border:2px solid #D35400;
+            padding:14px 40px;
+            color:white;
+            border-radius:24px;
+            transition:0.25s;
+            cursor:pointer;
+        }
+        .registration-form button:hover{
+            background:#D35400;
+        }
+    </style>
+</head>
+<body>
+<div class="registration-form">
+    <form action="#" method="post">
+        <input type="text" name="fullname" placeholder="full name">
+        <input type="text" name="username" placeholder="user name">
+        <input type="email" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">registration </button>
+    </form>
+</div>
+</body>
+</html>
